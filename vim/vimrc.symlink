@@ -1,4 +1,7 @@
+execute pathogen#infect()
 syntax on
-
-" Wrap gitcommit file types at the appropriate length
-filetype indent plugin on
+filetype plugin indent on
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set undodir=~/.vimundo
