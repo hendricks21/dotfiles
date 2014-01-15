@@ -1,5 +1,6 @@
 # dotfiles
 
+Dotfiles customize your system - these are mine. Forked from [holman/dotfiles].
 
 ## install
 
@@ -48,7 +49,6 @@ There's a few special files in the hierarchy.
 
 ## thanks
 
-Original fork from [holamans's dotfiles][holman's dotfiles].
+* [holman/dotfiles]
 
-
-[holman's dotfiles]: https://github.com/holman/dotfiles
+[holman/dotfiles]: https://github.com/holman/dotfiles
