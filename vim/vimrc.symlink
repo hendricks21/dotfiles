@@ -4,5 +4,7 @@ filetype plugin indent on
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set undodir=~/.vimundo
+set undodir=~/.vim/undo
 set list
+set cursorline
+hi CursorLine term=bold cterm=bold ctermbg=darkgrey guibg=Grey40
