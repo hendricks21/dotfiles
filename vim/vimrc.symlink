@@ -5,6 +5,7 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set undodir=~/.vim/undo
+set undofile
 set list
 set cursorline
 hi CursorLine term=bold cterm=bold ctermbg=darkgrey guibg=Grey40
