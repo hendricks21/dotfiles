@@ -1,0 +1,7 @@
+def r
+ reload!
+end
+
+def me
+  User.find_by_login(ENV['USER'].strip)
+end
