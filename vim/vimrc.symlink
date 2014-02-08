@@ -9,3 +9,7 @@ set undofile
 set list
 set cursorline
 hi CursorLine term=bold cterm=bold ctermbg=darkgrey guibg=Grey40
+set relativenumber
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
+autocmd FileType go autocmd BufWritePre <buffer> Fmt
