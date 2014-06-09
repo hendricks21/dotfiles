@@ -16,6 +16,7 @@
 --ignore-dir=.sass-cache
 --ignore-dir=vendor
 --ignore-dir=node_modules
+--ignore-dir=.npm
 
 --ignore-file=ext:bak
 --ignore-file=ext:htc
